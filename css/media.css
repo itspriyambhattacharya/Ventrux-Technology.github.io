@@ -1,0 +1,233 @@
+@media only screen and (max-width:992px){
+    .menu{
+        display: block;
+    }
+    header{
+        width: 100vw;
+    }
+    nav{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .nav-links{
+        background-color: #ccff99;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        transform: translateX(100%);
+        transition: 1s;
+    }
+    .show{
+        transform: translateX(0%);
+        transition: 1s;
+    }
+
+    .d-none{
+        display: none;
+    }
+    .d-block{
+        display: block;
+    }
+    .wrapper{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 375px){
+    .logo img{
+        width: 200px !important;
+    }
+    .banner-text-grp h1 {
+        font-size: 22px !important;
+    }
+    .banner-text-grp h2 {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    .banner-btn {
+        width: 150px !important;
+        padding: 4px 0px !important;
+        font-size: 16px !important;
+        border-radius: 5px !important;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .about-imgarea{
+        display: none;
+    }   
+}
+
+
+@media only screen and (max-width:576px){
+    .banner{
+        background-position: left center;
+        height: 500px;
+    }
+    .banner-text-grp h1{
+        font-size: 25px;
+    }
+    .banner-text-grp h2 {
+        font-size: 33px;
+        margin-bottom: 25px;
+    }
+    .banner-text-grp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-btn{
+        width: 230px;
+        padding: 10px 0px;
+    }
+    .service-cards{
+        flex-direction: column;
+    }
+    .about-body{
+        flex-direction: column-reverse;
+    }
+    .about-textarea{
+        width: 90%;
+    }
+    .heading-size {
+        font-size: 30px;
+    }
+    .scard{
+        width: 90%;
+    }
+    .scard-body p{
+        font-size: min(14px , 16px);
+    }
+    .about-imgarea{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .contact-img{
+        display: none;
+    }
+    .about-textarea{
+        height: auto;
+        padding: 20px;
+    }
+    .about-textarea p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width: 991px){
+    .heading-size {
+        font-size: 50px;
+    }
+    .banner{
+        background-position: top left;
+    }
+    .banner-text-grp{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-text-grp h1 {
+        font-size: 48px;
+    }
+    .banner-text-grp h2 {
+        font-size: 45px;
+    }
+    .banner-btn{
+        width: 200px;
+        padding: 12px 0px;
+        border-radius: 7px;
+    }
+    #service div{
+        flex-direction: column;
+    }
+    .about-body{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-imgarea{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-textarea{
+        height: auto;
+        padding: 25px 20px;
+    }
+    .about-textarea p{
+        font-size: 17px;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .contact-img{
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width: 1199px){
+    .banner-text-grp{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-text-grp h1 {
+        font-size: 48px;
+    }
+    .banner-text-grp h2 {
+        font-size: 45px;
+    }
+    .banner-btn{
+        width: 200px;
+        padding: 12px 0px;
+        border-radius: 7px;
+    }
+    #service div{
+        flex-direction: column;
+    }
+    .about-body{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about-imgarea{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-textarea{
+        height: auto;
+        padding: 25px 20px;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form{
+        width: 90%;
+        border-radius: 10px;
+    }
+    .contact-img{
+        display: none;
+    }
+}

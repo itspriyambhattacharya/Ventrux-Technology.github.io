@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+.border-primary{
+    border: 2px solid blue;
+}
+.border-dark{
+    border: 2px solid black;
+}
+.w-100{
+    width: 100%;
+}
+.h-130{
+    height: 130px;
+}
+.h-161{
+    height: 161px;
+}
+.h-260{
+    height: 260px;
+}
+
+.m-center{
+    margin: 0 auto;
+}
+
+.catamaran{
+    font-family: 'Catamaran', sans-serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.ShareTech{
+    font-family: 'Share Tech', sans-serif;
+}
+.segoe{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+    text-align-last: left;
+}
+
+.heading-color{
+    color: #3f5d65;
+}
+.heading-size{
+    font-size: 60px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.g-30{
+    gap: 30px;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.o-clip{
+    overflow: clip;
+}
